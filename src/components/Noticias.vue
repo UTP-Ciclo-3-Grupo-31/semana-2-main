@@ -1,17 +1,19 @@
 <template>
-    <div class="container" id="noticias">
-        <div class="row">
-            <div class="col-md-6" v-for="noticia in news" :key="noticia" >
+    <div class="container-fluid" id="noticias">
+        <div class="row justify-content-center mt-5 ">
+            <div class="col-5 bg-light border rounded ml-4 mb-4" v-for="(noticia,key) in news" :key="key" >
                 <h5 >
                 {{ noticia[0]}}
                 </h5>
-                <img class=" img-noticia" :src="noticia[2]">
+                <div class="row justify-content-center">
+                    <img class="img-fluid img-noticia" :src="noticia[2]">
+                </div>
                 <p>
                     {{ noticia[1]}}
                 </p>
                 <div class="row">
-                    <a class="col-5" target="_blank" v-bind:href="noticia[3]">leer mas...</a>
-                    <h5 class="col-5" >publicado el {{noticia[4]}}</h5>
+                    <a class="col" target="_blank" v-bind:href="noticia[3]">leer mas...</a>
+                    <h5 class="col" >publicado el {{noticia[4]}}</h5>
                 </div>
             </div>
         </div>
@@ -24,7 +26,7 @@ const cantidadArticulos = 4;
 var listadoArticulos = [];
 
 const obtenerArticulos = async () => {
-    const resultText = await fetch('http://newsapi.org/v2/top-headlines?country=co&category=technology&apiKey=5f3c419ec6044044ac2462c9ad164194' ,{
+    const resultText = await fetch('http://newsapi.org/v2/top-headlines?country=co&apiKey=5f3c419ec6044044ac2462c9ad164194' ,{
     method:'GET',
     });
     let articulosJSON = await resultText.json();
@@ -56,6 +58,6 @@ obtenerArticulos();
 <style scoped>
 
 .img-noticia{
-    width: 70%;
+    width: 60%;
 }
 </style>
