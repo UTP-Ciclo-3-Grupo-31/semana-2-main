@@ -110,7 +110,6 @@
     width: 80%;
     height: auto;
     margin: auto;
-    font-size: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     color: #0c0629;
@@ -121,7 +120,6 @@
     height: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: 2.5rem;
     margin: auto;
     color: #0d2e53;
 
