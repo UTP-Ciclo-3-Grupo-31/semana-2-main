@@ -3,11 +3,11 @@
         <div>
             <h4><strong>Descripción del sitio web</strong></h4>
             <p> Este es un desarrollo Web creado por los estudiantes del grupo 31,<br> 
-                dentro del marco del modulo 3 del proyecto Misión Tic 2021, con el<br> 
+                dentro del marco del modulo 3 del proyecto Misión Tic 2022, con el<br> 
                 cual se pretende mostrar las habilidades obtenidas durante la semana<br>
-                1 de dicho Modulo. <br> <br> 
+                2 de dicho Modulo. <br> <br> 
 
-                <a>https://github.com/UTP-Ciclo-3-Grupo-31/semana-1-master</a>
+                <a href="https://github.com/UTP-Ciclo-3-Grupo-31/semana-2-main">https://github.com/UTP-Ciclo-3-Grupo-31/semana-2-main</a>
             </p>
 
             
