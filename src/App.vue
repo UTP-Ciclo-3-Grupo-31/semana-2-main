@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <header-page></header-page>
+    <carrusel></carrusel>
     <services></services>
     <noticias></noticias>
     <div class="container">
@@ -16,15 +17,18 @@
 
 <script>
 import HeaderPage from "./components/HeaderPage.vue";
+import Carrusel from "./components/Carrusel.vue";
 import Services from "./components/Services.vue";
 import TeamCard from "./components/TeamCard.vue";
 import Noticias from "./components/Noticias.vue";
 import FooterPage from "./components/FooterPage.vue";
 
+
 export default {
   name: "App",
   components: {
     HeaderPage,
+    Carrusel,
     Services,
     TeamCard,
     Noticias,
