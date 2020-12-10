@@ -1,5 +1,13 @@
 # pryecto_sprint2
 
+# Integrantes
+Grupo 31
+Sergio Vargas
+Diego Lipez 
+Jose del Valle
+Esteban Durán
+Engie Lorena Hernández
+
 ## Project setup
 ```
 npm install
